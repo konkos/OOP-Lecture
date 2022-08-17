@@ -1,4 +1,4 @@
-package introduction.i2.encapsulation.timeViolation;
+package introduction.i1.encapsulation.timeViolation;
 
 public class Main {
 

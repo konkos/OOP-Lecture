@@ -1,4 +1,4 @@
-package introduction.i2.encapsulation.time;
+package introduction.i1.encapsulation.time;
 
 public class Main {
 
