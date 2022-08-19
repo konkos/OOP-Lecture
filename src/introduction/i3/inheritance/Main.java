@@ -10,7 +10,6 @@ public class Main {
 		
 		ArrayList<Student> students = new ArrayList<Student>();
 		
-		//DataEntry de = new DataEntry();
 		DataEntry.readInput(students);
 		
 		for(Student student:students)

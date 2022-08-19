@@ -1,6 +1,6 @@
 package introduction.i3.inheritance;
 
-public class Student {
+public abstract class Student {
 	
 	protected String name;
 	protected String id;
@@ -16,7 +16,5 @@ public class Student {
 		System.out.println("Id: " + id);
 		System.out.println("--------------");
 	}
-	
-	
 
 }
