@@ -1,17 +1,32 @@
 package files;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+
 public class Main {
 
     public static void main(String[] args) {
         //Save Object To File
-//        File file = new File("student.ser");
-//        Student st = new Student("name",10);
+        File file = new File("student.ser");
+        Student st = new Student("name", 10);
+//        FileOutputStream fouts = null;
+//        ObjectOutputStream douts = null;
 //        try {
-//            FileOutputStream fouts = new FileOutputStream(file);
-//            ObjectOutputStream douts = new ObjectOutputStream(fouts);
+//            fouts = new FileOutputStream(file);
+//            douts = new ObjectOutputStream(fouts);
 //            douts.writeObject(st);
 //        } catch (IOException e) {
 //            throw new RuntimeException(e);
+//        } finally {
+//            try {
+        //close streams to avoid resource leaks
+//                douts.close();
+//                fouts.close();
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
 //        }
 
 //        //Read Object From File
