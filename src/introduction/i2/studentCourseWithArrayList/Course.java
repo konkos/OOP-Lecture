@@ -1,28 +1,30 @@
 package introduction.i2.studentCourseWithArrayList;
 
+import java.util.ArrayList;
+
 public class Course {
-	
+
 	private String name;
-	private Student[] enrolledStudents;
-	private int counter;
-	
+	private ArrayList<Student> enrolledStudents;
+
 	public Course(String text) {
 		name = text;
-		enrolledStudents = new Student[20];
-		counter = 0;
+		enrolledStudents = new ArrayList<Student>();
 	}
-	
+
 	public void addStudent(Student s) {
-		if(counter < 20) {
-			enrolledStudents[counter] = s;
-			counter++;
-		}	
+		enrolledStudents.add(s);
 	}
-	
+
 	public void printStudentsInfo() {
-		for(int i=0; i<counter; i++) {
-			enrolledStudents[i].printInfo();
+		for(int i=0; i<enrolledStudents.size(); i++) {
+			enrolledStudents.get(i).printInfo();
 		}
 	}
 
+	public String getName() {
+		return name;
+	}
+
 }
+
