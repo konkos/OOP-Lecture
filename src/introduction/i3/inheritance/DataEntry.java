@@ -15,12 +15,12 @@ public class DataEntry {
             String name = JOptionPane.showInputDialog("Please enter the name: ");
             String id = JOptionPane.showInputDialog("Please enter the id: ");
             String supervisor = null;
-			String thesis=null;
+            String thesis = null;
             if (selection == 1)
                 supervisor = JOptionPane.showInputDialog("Please enter the supervisor: ");
-			else {
-				thesis = JOptionPane.showInputDialog("Please enter the thesis: ");
-			}
+            else {
+                thesis = JOptionPane.showInputDialog("Please enter the thesis: ");
+            }
 
             Student s;
 

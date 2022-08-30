@@ -1,10 +1,11 @@
 package introduction.i3.inheritance;
 
 public class PhDStudent extends Student {
-    private String thesis;
-    public PhDStudent(String name, String id,String thesis) {
+    private final String thesis;
+
+    public PhDStudent(String name, String id, String thesis) {
         super(name, id);
-        this.thesis=thesis;
+        this.thesis = thesis;
     }
 
     public void printInfo() {

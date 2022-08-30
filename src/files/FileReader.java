@@ -7,8 +7,8 @@ import java.io.ObjectInputStream;
 
 public class FileReader<T> {
 
-    private T objToRead;
     private final String fileName;
+    private T objToRead;
 
     public FileReader(String fileName) {
         this.fileName = fileName;

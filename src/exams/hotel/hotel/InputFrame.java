@@ -1,4 +1,4 @@
-package exams.hotel;
+package exams.hotel.hotel;
 
 import javax.swing.*;
 import java.awt.*;

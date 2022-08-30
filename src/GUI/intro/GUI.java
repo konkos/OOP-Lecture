@@ -3,14 +3,14 @@ package GUI.intro;
 import javax.swing.*;
 
 public class GUI extends JFrame {
-    private JPanel panel;
+    private final JPanel panel;
 
-    public GUI(){
+    public GUI() {
         panel = new JPanel();
 
         this.setContentPane(panel);
         this.setVisible(true);
-        this.setSize(500,500);
+        this.setSize(500, 500);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
