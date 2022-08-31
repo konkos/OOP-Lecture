@@ -1,6 +1,6 @@
 package sorting;
 
-import files.Student;
+import files.serialization.Student;
 
 import java.util.ArrayList;
 import java.util.Random;
