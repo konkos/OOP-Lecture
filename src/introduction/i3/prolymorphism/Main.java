@@ -24,7 +24,7 @@ public class Main {
 
             if (selection == 1) {
 
-                account = new BankAccount(name, balance);
+//                account = new BankAccount(name, balance);
             } else if (selection == 2) {
                 String rateText = JOptionPane.showInputDialog("Enter the interest rate");
                 double rate = Double.parseDouble(rateText);

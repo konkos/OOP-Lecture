@@ -6,9 +6,9 @@ public class Student {
     private final String id;
     private Course myCourse;
 
-    public Student(String text1, String text2) {
-        name = text1;
-        id = text2;
+    public Student(String aName, String id) {
+        name = aName;
+        this.id = id;
     }
 
     public void printInfo() {

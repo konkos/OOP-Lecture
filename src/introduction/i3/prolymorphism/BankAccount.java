@@ -1,6 +1,6 @@
 package introduction.i3.prolymorphism;
 
-public class BankAccount {
+public abstract class BankAccount {
 
     protected String name;
     protected double balance;

@@ -22,4 +22,20 @@ public class TimeStamp {
         System.out.println("Time is: " + hour + ":" +
                 minute + ":" + second);
     }
+
+    public int getSecond() {
+        return second;
+    }
+
+    public int getMinute() {
+        return minute;
+    }
+
+    public int getHour() {
+        return hour;
+    }
+
+    public void setHour(int hour) {
+        this.hour = hour;
+    }
 }

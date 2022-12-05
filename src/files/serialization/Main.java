@@ -1,13 +1,14 @@
 package files.serialization;
 
-import java.io.File;
+import java.io.*;
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
         //Save Object To File
-        File file = new File("student.ser");
-        Student st = new Student("name", 10);
+//        File file = new File("student.ser");
+//        Student st = new Student("name", 10);
 //        FileOutputStream fouts = null;
 //        ObjectOutputStream douts = null;
 //        try {
@@ -18,7 +19,7 @@ public class Main {
 //            throw new RuntimeException(e);
 //        } finally {
 //            try {
-        //close streams to avoid resource leaks
+//        // close streams to avoid resource leaks
 //                douts.close();
 //                fouts.close();
 //            } catch (IOException e) {
@@ -26,7 +27,7 @@ public class Main {
 //            }
 //        }
 
-//        //Read Object From File
+        //Read Object From File
 //        File file = new File("student.ser");
 //        try {
 //            FileInputStream fins = new FileInputStream(file);
